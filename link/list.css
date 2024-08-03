@@ -1,0 +1,35 @@
+body{
+    background-color:whitesmoke;
+    
+}
+.dropdown button{
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 1px 2px rgb(65, 62, 62);
+    padding: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+.dropdown .content{
+    display: grid;
+    min-width:max-content;
+    background-color: rgb(247, 251, 253);
+    display: none;
+}
+.dropdown .content a{
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 5px 5px 2px rgb(238, 235, 235);
+    border: 0;
+}
+.dropdown .content a:hover{
+    background-color: lightgrey;
+}
+.dropdown button:hover {
+    cursor: pointer;
+}
+.dropdown:hover .content{
+    display: grid;
+}
